@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="udp_transport">
+      <UniqueIdentifier>{2a9f523b-d8eb-45fa-ba6c-bbcd5fc631ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="udp_transport\sockets">
+      <UniqueIdentifier>{620b4b2a-4164-4219-8374-fbaf8c18e062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{8a545f7b-a8aa-4c41-a529-17bac54a3ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="udp_transport\address">
+      <UniqueIdentifier>{423a7d63-07d1-456e-8a81-95c7350c1eb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_transport\sockets\socket.h">
+      <Filter>udp_transport\sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\platform.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\types.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_transport\address\address.h">
+      <Filter>udp_transport\address</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\trace.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="application_constants.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_transport.h">
+      <Filter>udp_transport</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_transport\sockets\socket.cpp">
+      <Filter>udp_transport\sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_transport\address\address.cpp">
+      <Filter>udp_transport\address</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
